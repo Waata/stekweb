@@ -1,0 +1,514 @@
+/*
+
+Landing Zero theme - A free landing page theme from BootstrapZero
+http://www.bootstrapzero.com
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+/* line 12, site.css.scss */
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+/* line 18, site.css.scss */
+body {
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+  background-color: #282828;
+  color: #d3d3d3;
+  webkit-tap-highlight-color: #222; }
+
+/* line 25, site.css.scss */
+hr {
+  max-width: 80px;
+  border-width: 3px;
+  opacity: 0.09;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* line 33, site.css.scss */
+hr.light {
+  border-color: #fff; }
+
+/* line 37, site.css.scss */
+a {
+  color: #9c27b0;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+/* line 44, site.css.scss */
+a:hover,
+a:focus {
+  color: #9c27c1;
+  outline: 0; }
+
+/* line 50, site.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif; }
+
+/* line 54, site.css.scss */
+p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px; }
+
+/* line 60, site.css.scss */
+.wide-space {
+  letter-spacing: 1.6px; }
+
+/* line 64, site.css.scss */
+.icon-lg {
+  font-size: 50px;
+  line-height: 18px; }
+
+/* line 69, site.css.scss */
+.bg-primary {
+  background-color: #333; }
+
+/* line 73, site.css.scss */
+.bg-dark {
+  color: #eee;
+  background-color: #222; }
+
+/* line 78, site.css.scss */
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  text-transform: none; }
+
+/* line 83, site.css.scss */
+.text-faded {
+  color: rgba(245, 245, 245, 0.7); }
+
+/* line 87, site.css.scss */
+.text-dark {
+  color: #111; }
+
+/* line 91, site.css.scss */
+.text-primary {
+  color: #9c27b0; }
+
+/* line 95, site.css.scss */
+.modal-content {
+  background-color: #1d1d1d; }
+
+/* line 99, site.css.scss */
+section {
+  padding: 70px 0; }
+
+/* line 103, site.css.scss */
+aside {
+  padding: 50px 0; }
+
+/* line 107, site.css.scss */
+footer {
+  padding: 15px; }
+
+/* line 111, site.css.scss */
+.no-padding {
+  padding: 0; }
+
+/* line 115, site.css.scss */
+.navbar-default {
+  border-color: rgba(35, 35, 35, 0.05);
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+  background-color: #222;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s; }
+
+/* line 124, site.css.scss */
+.navbar-header > .navbar-brand {
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+  color: #9c27b0;
+  padding: 15px;
+  -webkit-transition: padding .2s ease-in;
+  -moz-transition: padding .2s ease-in;
+  transition: padding .2s ease-in; }
+
+/* line 133, site.css.scss */
+.navbar-header > .navbar-brand:hover,
+.navbar-header > .navbar-brand:focus {
+  color: #8b27b0; }
+
+/* line 138, site.css.scss */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #181818; }
+
+/* line 141, site.css.scss */
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+  border-color: transparent; }
+
+/* line 145, site.css.scss */
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #eee; }
+
+/* line 153, site.css.scss */
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #9c27b0; }
+
+/* line 158, site.css.scss */
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #9c27b0 !important;
+  background-color: transparent; }
+
+/* line 164, site.css.scss */
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent; }
+
+@media (min-width: 768px) {
+  /* line 172, site.css.scss */
+  .navbar-default {
+    border-color: transparent;
+    background-color: transparent;
+    min-height: 60px; }
+
+  /* line 178, site.css.scss */
+  .navbar-header > .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 19px; }
+
+  /* line 183, site.css.scss */
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: #f4f4f4; }
+
+  /* line 188, site.css.scss */
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    letter-spacing: 1.1px;
+    text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7); }
+
+  /* line 196, site.css.scss */
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: #fefefe; }
+
+  /* line 201, site.css.scss */
+  .navbar-default.affix {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: #222; }
+
+  /* line 206, site.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand {
+    font-size: 15px;
+    color: #9c27b0;
+    padding: 20px;
+    letter-spacing: 1px; }
+
+  /* line 213, site.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #8b27b0; }
+
+  /* line 218, site.css.scss */
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #ddd;
+    text-shadow: 1px 1px 1px rgba(30, 30, 30, 0.7); }
+
+  /* line 224, site.css.scss */
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #9c27b0; } }
+/* line 230, site.css.scss */
+header {
+  position: relative;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  background-color: #c9c9c9;
+  background-image: url("https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+/* line 245, site.css.scss */
+header .header-content {
+  position: relative;
+  width: 100%;
+  padding: 100px 15px;
+  text-align: center;
+  z-index: 2; }
+
+/* line 253, site.css.scss */
+header .header-content .inner h1 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 258, site.css.scss */
+header .header-content .inner p {
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7); }
+
+/* line 265, site.css.scss */
+#video-background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1; }
+
+/* line 276, site.css.scss */
+#video-background.collapsing {
+  display: none; }
+
+/* line 280, site.css.scss */
+footer {
+  background-color: #2d2d2d; }
+
+@media (min-width: 768px) {
+  /* line 285, site.css.scss */
+  .icon-lg {
+    font-size: 80px; }
+
+  /* line 289, site.css.scss */
+  header {
+    min-height: 100%; }
+
+  /* line 293, site.css.scss */
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  /* line 302, site.css.scss */
+  header .header-content .inner {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px; }
+
+  /* line 308, site.css.scss */
+  header .header-content .inner h1 {
+    font-size: 53px; }
+
+  /* line 312, site.css.scss */
+  header .header-content .inner p {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    font-size: 18px; }
+
+  /* line 319, site.css.scss */
+  section {
+    min-height: 600px;
+    padding: 100px 0; } }
+/* line 326, site.css.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #eee;
+  background-color: #36333d;
+  background-image: none;
+  border: 1px solid #36333d;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
+
+/* line 342, site.css.scss */
+.form-control:focus {
+  color: #222;
+  background-color: #ccc;
+  box-shadow: none; }
+
+/* line 348, site.css.scss */
+textarea {
+  resize: none; }
+
+/* line 352, site.css.scss */
+.margin-top-0 {
+  margin-top: 0; }
+
+/* line 356, site.css.scss */
+.feature {
+  margin: 50px auto 0;
+  max-width: 400px; }
+
+@media (min-width: 992px) {
+  /* line 362, site.css.scss */
+  .feature {
+    margin: 20px auto 0; } }
+/* line 367, site.css.scss */
+.feature p {
+  margin-bottom: 0; }
+
+/* line 371, site.css.scss */
+.call-to-action h2 {
+  margin: 0 auto 20px; }
+
+/* line 375, site.css.scss */
+.gallery-box {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+  overflow: hidden; }
+
+/* line 383, site.css.scss */
+.gallery-box .gallery-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  background: rgba(44, 44, 44, 0.8);
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+/* line 398, site.css.scss */
+.gallery-box .gallery-box-caption .gallery-box-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); }
+
+/* line 406, site.css.scss */
+.gallery-box:hover .gallery-box-caption {
+  opacity: 1; }
+
+/* line 410, site.css.scss */
+.gallery-box:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+/* line 416, site.css.scss */
+.gallery-box img {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
+
+/* line 421, site.css.scss */
+.no-gutter > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0; }
+
+/* line 426, site.css.scss */
+.btn-default {
+  border-color: #fff;
+  color: #222;
+  background-color: #fff;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+/* line 435, site.css.scss */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  border-color: #ededed;
+  color: #222;
+  background-color: #f2f2f2;
+  opacity: 0.7; }
+
+/* line 447, site.css.scss */
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none; }
+
+/* line 453, site.css.scss */
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  border-color: #fff;
+  background-color: #fff;
+  opacity: 0.7; }
+
+/* line 476, site.css.scss */
+.btn-default .badge {
+  color: #fff;
+  background-color: #222; }
+
+/* line 481, site.css.scss */
+.btn.btn-primary {
+  background-color: transparent;
+  border: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+/* line 490, site.css.scss */
+.btn.btn-primary:hover {
+  opacity: 0.7; }
+
+/* line 494, site.css.scss */
+.btn {
+  border: 0;
+  border-radius: 290px;
+  font-family: 'Helvetica Neue',Arial,sans-serif; }
+
+/* line 500, site.css.scss */
+.btn-xl {
+  padding: 15px 30px;
+  font-size: 20px; }
+
+/* line 505, site.css.scss */
+::-moz-selection {
+  text-shadow: none;
+  color: #fff;
+  background: #222; }
+
+/* line 511, site.css.scss */
+::selection {
+  text-shadow: none;
+  color: #fff;
+  background: #222; }
+
+/* line 517, site.css.scss */
+img::selection {
+  color: #fff;
+  background: 0 0; }
+
+/* line 522, site.css.scss */
+img::-moz-selection {
+  color: #fff;
+  background: 0 0; }

@@ -88,22 +88,26 @@ p {
   background-color: #1d1d1d; }
 
 /* line 94, site.css.scss */
+.landing-logo {
+  opacity: 0.4; }
+
+/* line 98, site.css.scss */
 section {
   padding: 70px 0; }
 
-/* line 98, site.css.scss */
+/* line 102, site.css.scss */
 aside {
   padding: 50px 0; }
 
-/* line 102, site.css.scss */
+/* line 106, site.css.scss */
 footer {
   padding: 15px; }
 
-/* line 106, site.css.scss */
+/* line 110, site.css.scss */
 .no-padding {
   padding: 0; }
 
-/* line 110, site.css.scss */
+/* line 114, site.css.scss */
 .navbar-default {
   border-color: rgba(35, 35, 35, 0.05);
   font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
@@ -112,7 +116,7 @@ footer {
   -moz-transition: all .4s;
   transition: all .4s; }
 
-/* line 119, site.css.scss */
+/* line 123, site.css.scss */
 .navbar-header > .navbar-brand {
   font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
   color: #9c27b0;
@@ -121,20 +125,20 @@ footer {
   -moz-transition: padding .2s ease-in;
   transition: padding .2s ease-in; }
 
-/* line 128, site.css.scss */
+/* line 132, site.css.scss */
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
   color: #8b27b0; }
 
-/* line 133, site.css.scss */
+/* line 137, site.css.scss */
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #181818; }
 
-/* line 136, site.css.scss */
+/* line 140, site.css.scss */
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
   border-color: transparent; }
 
-/* line 140, site.css.scss */
+/* line 144, site.css.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -142,40 +146,40 @@ footer {
   font-weight: 700;
   color: #eee; }
 
-/* line 148, site.css.scss */
+/* line 152, site.css.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #9c27b0; }
 
-/* line 153, site.css.scss */
+/* line 157, site.css.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #9c27b0 !important;
   background-color: transparent; }
 
-/* line 159, site.css.scss */
+/* line 163, site.css.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent; }
 
 @media (min-width: 768px) {
-  /* line 167, site.css.scss */
+  /* line 171, site.css.scss */
   .navbar-default {
     border-color: transparent;
     background-color: transparent;
     min-height: 60px; }
 
-  /* line 173, site.css.scss */
+  /* line 177, site.css.scss */
   .navbar-header > .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
     padding: 19px; }
 
-  /* line 178, site.css.scss */
+  /* line 182, site.css.scss */
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: #f4f4f4; }
 
-  /* line 183, site.css.scss */
+  /* line 187, site.css.scss */
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.8);
@@ -183,39 +187,39 @@ footer {
     letter-spacing: 1.1px;
     text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7); }
 
-  /* line 191, site.css.scss */
+  /* line 195, site.css.scss */
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: #fefefe; }
 
-  /* line 196, site.css.scss */
+  /* line 200, site.css.scss */
   .navbar-default.affix {
     border-color: rgba(34, 34, 34, 0.05);
     background-color: #222; }
 
-  /* line 201, site.css.scss */
+  /* line 205, site.css.scss */
   .navbar-default.affix .navbar-header .navbar-brand {
     font-size: 15px;
     color: #9c27b0;
     padding: 20px;
     letter-spacing: 1px; }
 
-  /* line 208, site.css.scss */
+  /* line 212, site.css.scss */
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #8b27b0; }
 
-  /* line 213, site.css.scss */
+  /* line 217, site.css.scss */
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: #ddd;
     text-shadow: 1px 1px 1px rgba(30, 30, 30, 0.7); }
 
-  /* line 219, site.css.scss */
+  /* line 223, site.css.scss */
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #9c27b0; } }
-/* line 225, site.css.scss */
+/* line 229, site.css.scss */
 header {
   position: relative;
   min-height: auto;
@@ -230,7 +234,7 @@ header {
   background-size: cover;
   -o-background-size: cover; }
 
-/* line 240, site.css.scss */
+/* line 244, site.css.scss */
 header .header-content {
   position: relative;
   width: 100%;
@@ -238,19 +242,19 @@ header .header-content {
   text-align: center;
   z-index: 2; }
 
-/* line 248, site.css.scss */
+/* line 252, site.css.scss */
 header .header-content .inner h1 {
   margin-top: 0;
   margin-bottom: 0; }
 
-/* line 253, site.css.scss */
+/* line 257, site.css.scss */
 header .header-content .inner p {
   margin-bottom: 50px;
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7); }
 
-/* line 260, site.css.scss */
+/* line 264, site.css.scss */
 #video-background {
   position: absolute;
   right: 0;
@@ -261,24 +265,24 @@ header .header-content .inner p {
   height: auto;
   z-index: 1; }
 
-/* line 271, site.css.scss */
+/* line 275, site.css.scss */
 #video-background.collapsing {
   display: none; }
 
-/* line 275, site.css.scss */
+/* line 279, site.css.scss */
 footer {
   background-color: #2d2d2d; }
 
 @media (min-width: 768px) {
-  /* line 280, site.css.scss */
+  /* line 284, site.css.scss */
   .icon-lg {
     font-size: 80px; }
 
-  /* line 284, site.css.scss */
+  /* line 288, site.css.scss */
   header {
     min-height: 100%; }
 
-  /* line 288, site.css.scss */
+  /* line 292, site.css.scss */
   header .header-content {
     position: absolute;
     top: 50%;
@@ -287,28 +291,28 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
 
-  /* line 297, site.css.scss */
+  /* line 301, site.css.scss */
   header .header-content .inner {
     margin-right: auto;
     margin-left: auto;
     max-width: 1000px; }
 
-  /* line 303, site.css.scss */
+  /* line 307, site.css.scss */
   header .header-content .inner h1 {
     font-size: 53px; }
 
-  /* line 307, site.css.scss */
+  /* line 311, site.css.scss */
   header .header-content .inner p {
     margin-right: auto;
     margin-left: auto;
     max-width: 80%;
     font-size: 18px; }
 
-  /* line 314, site.css.scss */
+  /* line 318, site.css.scss */
   section {
     min-height: 600px;
     padding: 100px 0; } }
-/* line 321, site.css.scss */
+/* line 325, site.css.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -324,38 +328,38 @@ footer {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
 
-/* line 337, site.css.scss */
+/* line 341, site.css.scss */
 .form-control:focus {
   color: #222;
   background-color: #ccc;
   box-shadow: none; }
 
-/* line 343, site.css.scss */
+/* line 347, site.css.scss */
 textarea {
   resize: none; }
 
-/* line 347, site.css.scss */
+/* line 351, site.css.scss */
 .margin-top-0 {
   margin-top: 0; }
 
-/* line 351, site.css.scss */
+/* line 355, site.css.scss */
 .feature {
   margin: 50px auto 0;
   max-width: 400px; }
 
 @media (min-width: 992px) {
-  /* line 357, site.css.scss */
+  /* line 361, site.css.scss */
   .feature {
     margin: 20px auto 0; } }
-/* line 362, site.css.scss */
+/* line 366, site.css.scss */
 .feature p {
   margin-bottom: 0; }
 
-/* line 366, site.css.scss */
+/* line 370, site.css.scss */
 .call-to-action h2 {
   margin: 0 auto 20px; }
 
-/* line 370, site.css.scss */
+/* line 374, site.css.scss */
 .gallery-box {
   display: block;
   position: relative;
@@ -363,7 +367,7 @@ textarea {
   max-width: 650px;
   overflow: hidden; }
 
-/* line 378, site.css.scss */
+/* line 382, site.css.scss */
 .gallery-box .gallery-box-caption {
   display: block;
   position: absolute;
@@ -378,7 +382,7 @@ textarea {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 393, site.css.scss */
+/* line 397, site.css.scss */
 .gallery-box .gallery-box-caption .gallery-box-content {
   position: absolute;
   top: 50%;
@@ -386,27 +390,27 @@ textarea {
   text-align: center;
   transform: translateY(-50%); }
 
-/* line 401, site.css.scss */
+/* line 405, site.css.scss */
 .gallery-box:hover .gallery-box-caption {
   opacity: 1; }
 
-/* line 405, site.css.scss */
+/* line 409, site.css.scss */
 .gallery-box:hover img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
 
-/* line 411, site.css.scss */
+/* line 415, site.css.scss */
 .gallery-box img {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; }
 
-/* line 416, site.css.scss */
+/* line 420, site.css.scss */
 .no-gutter > [class*=col-] {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 421, site.css.scss */
+/* line 425, site.css.scss */
 .btn-default {
   border-color: #fff;
   color: #222;
@@ -415,7 +419,7 @@ textarea {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 430, site.css.scss */
+/* line 434, site.css.scss */
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -427,13 +431,13 @@ textarea {
   background-color: #f2f2f2;
   opacity: 0.7; }
 
-/* line 442, site.css.scss */
+/* line 446, site.css.scss */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none; }
 
-/* line 448, site.css.scss */
+/* line 452, site.css.scss */
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -456,12 +460,12 @@ fieldset[disabled] .btn-default.active {
   background-color: #fff;
   opacity: 0.7; }
 
-/* line 471, site.css.scss */
+/* line 475, site.css.scss */
 .btn-default .badge {
   color: #fff;
   background-color: #222; }
 
-/* line 476, site.css.scss */
+/* line 480, site.css.scss */
 .btn.btn-primary {
   background-color: transparent;
   border: 1px solid #f0f0f0;
@@ -470,39 +474,39 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-/* line 485, site.css.scss */
+/* line 489, site.css.scss */
 .btn.btn-primary:hover {
   opacity: 0.7; }
 
-/* line 489, site.css.scss */
+/* line 493, site.css.scss */
 .btn {
   border: 0;
   border-radius: 290px;
   font-family: 'Helvetica Neue',Arial,sans-serif; }
 
-/* line 495, site.css.scss */
+/* line 499, site.css.scss */
 .btn-xl {
   padding: 15px 30px;
   font-size: 20px; }
 
-/* line 500, site.css.scss */
+/* line 504, site.css.scss */
 ::-moz-selection {
   text-shadow: none;
   color: #fff;
   background: #222; }
 
-/* line 506, site.css.scss */
+/* line 510, site.css.scss */
 ::selection {
   text-shadow: none;
   color: #fff;
   background: #222; }
 
-/* line 512, site.css.scss */
+/* line 516, site.css.scss */
 img::selection {
   color: #fff;
   background: 0 0; }
 
-/* line 517, site.css.scss */
+/* line 521, site.css.scss */
 img::-moz-selection {
   color: #fff;
   background: 0 0; }

@@ -221,6 +221,16 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-top: 20px; }
 .mail-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 120px; margin-top: 20px; }
 
+.mail-btn-modal { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 30px; letter-spacing: 2px; transition: all 0.5s ease; display: inline-block; color: black; }
+.modal-footer {
+    margin-top: 15px;
+    padding: 20px 1px 0px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.badge-logo-modal { opacity:0.6; height: 62px; background: url('../img/logo.png') no-repeat center center; text-indent: -99999px; display: block; margin: 5px auto 5px; -webkit-transition-duration: 3s; -moz-transition-duration: 3s; -o-transition-duration: 3s; transition-duration: 3s; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; transition-property: transform; }
+
+
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
 .testimonials { background: #5b6869 url('../img/tBG01.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 30px 0; }
 .features { background: #C1EAE8  url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; position: relative ;}

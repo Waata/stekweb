@@ -88,5 +88,5 @@ $(document).ready(function() {
 $(window).load(function(){
    setTimeout(function(){
        $('#myModal').modal('show');
-   }, 1000);
+   }, 5000);
 });

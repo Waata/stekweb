@@ -1,3 +1,4 @@
+
 // navigation slide-in
 $(window).load(function() {
   $('.nav_slide_button').click(function() {
@@ -81,4 +82,11 @@ $(document).ready(function() {
     openEffect: 'none',
     closeEffect: 'none'
   });
+});
+
+
+$(window).load(function(){
+   setTimeout(function(){
+       $('#myModal').modal('show');
+   }, 1000);
 });

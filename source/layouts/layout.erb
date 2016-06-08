@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <meta charset="utf-8">
+  <title>Stekweb</title>
+  <meta name="description" content="Stekweb" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title><%= current_page.data.title || "Stekweb" %></title>
+  <link rel="icon" href="" type="images/"/>
+  <link rel="shortcut icon" href="" type="images/"/>
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href="stylesheets/site.css" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css">
+  <link href="stylesheets/styles.css?v=1.6" rel="stylesheet">
+  <link href="stylesheets/queries.css?v=1.6" rel="stylesheet">
+  <link href="stylesheets/jquery.fancybox.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="stylesheets/mobile-device.css" />
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag :all %>
+</head>
+<%= yield %>
+
+</html>
+
